@@ -1,6 +1,6 @@
 # ElGamal-cryptosystem
 1. **User A** selects a large prime number `p`
-2. **User B** selects a primitive element `g` mod `p`
+2. **User A** selects a primitive element `g` mod `p`
 3. **User A** computes the secret key: `y = g^a mod p` (where `a` is private)
 4. Public parameters `(p, g, y)` are sent over the open channel
 
